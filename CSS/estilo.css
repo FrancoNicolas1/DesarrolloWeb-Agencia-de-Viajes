@@ -16,8 +16,13 @@ h1{
 	margin: auto;
 }
 
-img {
+.contenedor img {
 	width: 100%;
+	transition: all 300ms;
+}
+
+.contenedor img:hover{
+	transform: scale(1.15);
 }
 
 .viajes__columna{

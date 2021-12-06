@@ -59,7 +59,11 @@ font-family: 'Outfit', sans-serif;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: background-color 2s;
 }
+
+.sidebar:hover{
+    background: black;}
 
 .content > .article{
     background: #807e90;
