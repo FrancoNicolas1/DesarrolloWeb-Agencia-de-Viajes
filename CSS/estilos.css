@@ -4,12 +4,7 @@
 }
 
 body{
-   background:
-linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
-background-size: 100px 100px;
+    background-image: radial-gradient( white,black) ;
 font-family: 'Outfit', sans-serif;
 }
 
@@ -70,6 +65,15 @@ font-family: 'Outfit', sans-serif;
     padding: 20px;
     margin-top: 5px;
     color: white ;
+}
+
+.sidebar img {
+    width: 100%;
+    transition: all 300ms;
+}
+
+.sidebar img:hover{
+    transform: scale(1.15);
 }
 
 .content .article h1,
