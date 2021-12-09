@@ -1,127 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 
 body{
-    background-image: radial-gradient( white,black) ;
-font-family: 'Outfit', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-.title h1 {
-     text-align: center;
-     padding: 20px;
-     font-size: 2.9em;
-     text-transform: uppercase;
+.logotipo{
+	width: 150px;
+	padding: 10px 0;
 }
 
-.conteiner {
-    background: white;
-    width: 90%;
-    max-width: 1000px;
-    margin: 1.6em auto;
-    display: grid;
-    gap: 1.6rem;
-    grid-template-columns: repeat(5, 1fr);
+h1{
+	font-weight: bold;
 }
 
-.conteiner > .header,
-.conteinerc > .content,
-.conteiner > .sidebar,
-.conteiner > .footer,
-.conteiner > div{
-    background: blue;
-    padding: 20px;
-    border: 1px solid;
+.altura-a-b{
+	padding: 30px;
 }
 
-.conteiner .header,
-.conteiner .footer{
-    background: black;
-    color: white;
-    grid-column: 1/6;
+.logotipo{
+	width: 150px;
 }
 
-.conteiner > .content{
-    grid-column: span 3;
+
+footer{
+	background-color: black;
+	padding: 100px 0;
+	text-align: center;
 }
 
-.conteiner > .sidebar{
-    grid-column: span 2;
-    background: #485460;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transition: background-color 2s;
+.logotipo-footer{
+	width: 200px;
 }
 
-.sidebar:hover{
-    background: black;}
 
-.content > .article{
-    background: #807e90;
-    padding: 20px;
-    margin-top: 5px;
-    color: white ;
+footer p {
+	color: white;
+	font-size: 10px;
 }
 
-.sidebar img {
-    width: 100%;
-    transition: all 300ms;
+.cabecera-somos{
+	padding: 150px;
+	background-image: url(../imagenes/8.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+.cabecera-somos{
+	color: black;
 }
 
-.sidebar img:hover{
-    transform: scale(1.15);
-}
-
-.content .article h1,
-.content .article p{
-    padding: 10px;
-}
-
-.conteiner > .related-post{
-    background: #2d3436;
-    color: white;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease;
-    grid-column: 1/6;
-}
-
-.conteiner > .related-post:hover{
-    cursor: pointer;
-    color: black;
-    background: white;
-}
-
-.conteiner .sidebar img {
-    width: 100%;
-    margin-top: 5px;
-}
-
-.conteiner div a{
-    color: white;
-    text-decoration: none;
-}
-
-@media screen and (max-width: 768px){
-    .header{
-        text-align: center;
-    }
-
-    .conteiner .content{
-        grid-column: 1/6;
-    }
-
-    .conteiner .sidebar{
-        grid-column: 1/6;
-    }
-
-    .conteiner .related-post{
-        grid-column: ;
-    }
-}
