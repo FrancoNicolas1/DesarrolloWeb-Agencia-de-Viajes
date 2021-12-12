@@ -1,78 +1,176 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Clase 9</title>
-	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--TIPOGRAFIA-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Mochiy+Pop+P+One&family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
-</head>
-<body>
-	<header class="title">
-		<h1> Mi Blog</h1>
-	</header>
+<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,300;1,100&family=Oswald:wght@300&family=Outfit:wght@100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
 
-	<div class="conteiner">
-		<header class="header">
-			<h1>Mis viajes</h1>			
-		</header>
-	
-	    <main class="content">
-		         <article class="article">
-			<h1>Tittle</h1>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error qui commodi id eligendi quis et, tenetur unde nostrum totam. Reiciendis dignissimos maxime perferendis in voluptate doloribus dolorem placeat, deserunt amet.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis ullam nihil neque cumque rerum quisquam recusandae explicabo officia inventore, officiis saepe quasi veritatis quaerat tempora quos eos ipsum necessitatibus?</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nihil, eaque non nostrum quibusdam magni fugit praesentium laudantium, veniam voluptatibus culpa pariatur nulla nam libero vero totam adipisci deleniti illum.</p>			
-		         </article>
-		         <article class="article">
-			<h1>Tittle</h1>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error qui commodi id eligendi quis et, tenetur unde nostrum totam. Reiciendis dignissimos maxime perferendis in voluptate doloribus dolorem placeat, deserunt amet.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis ullam nihil neque cumque rerum quisquam recusandae explicabo officia inventore, officiis saepe quasi veritatis quaerat tempora quos eos ipsum necessitatibus?</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nihil, eaque non nostrum quibusdam magni fugit praesentium laudantium, veniam voluptatibus culpa pariatur nulla nam libero vero totam adipisci deleniti illum.</p>			
-		         </article>
-		         <article class="article">
-			<h1>Tittle</h1>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error qui commodi id eligendi quis et, tenetur unde nostrum totam. Reiciendis dignissimos maxime perferendis in voluptate doloribus dolorem placeat, deserunt amet.</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis ullam nihil neque cumque rerum quisquam recusandae explicabo officia inventore, officiis saepe quasi veritatis quaerat tempora quos eos ipsum necessitatibus?</p>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nihil, eaque non nostrum quibusdam magni fugit praesentium laudantium, veniam voluptatibus culpa pariatur nulla nam libero vero totam adipisci deleniti illum.</p>			
-		         </article>		
-	    </main>
+    <title>Viajes</title>
+    </head>
+
+  <body>
+
+    <!--NAV-->
+  
+<head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <img class="logo shadow-lg p-3" src="imagenes/0.png" alt="" > 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="enlaces/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Viajes</a></li>
+                <li><a class="dropdown-item" href="#">Hoteles</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="enlaces/inicio.html">Iniciar secion</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+ </nav>
+</head>    
+
+<!--CAROSEL-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/2.jpg" class="d-block w-100" alt="mundo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Viajar en tren por Europa</h5>
+        <p>Some representative placeholder content for the first slide. lorem</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="imagenes/3.jpg" class="d-block w-100" alt="avion">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mini vacaciones en Madrid</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/4.jpeg" class="d-block w-100" alt="pasajero">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Diario de viaje offline</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--MAIN-->
+
+<main>
+
+<section class="altura-a-b">
+      <div class="container">
+      <div class="row">
+              <div class="col-12 col-sm-4 text-center movimiento">
+                <img class="img-fluid shadow-lg p-3" src="imagenes/4.jpg">
+                <h1>Roma</h1>
+                <p>Roma goza de una gran herencia cultural y artística de autores de renombre del Renacimiento como Miguel Ángel, quien dejó en la Capilla Sixtina algunos de los frescos más valorados y populares del mundo. También importantes esculturas como La Piedad, situada en la basílica de San Pedro; o El Moisés, en San Pietro in Vincoli. </p>
+              </div>
+           
+              <div class="col-12 col-sm-4 text-center movimiento">
+                  <img class="img-fluid shadow-lg p-3" src="imagenes/5.jpg">
+                  <h1>Egipto</h1>
+                  <p>Tierra de contrastes compuesta por hermosos paisajes desérticos dotados del esplendor que les otorga el inagotable río Nilo, Egipto atrae millones de visitantes ofreciéndoles un viaje al pasado gracias a sus majestuosos templos y maravillas de la antigüedad conservadas a la perfección.</p>
+             </div>
+
+              <div class="col-12 col-sm-4 text-center movimiento">
+                <img class="img-fluid shadow-lg p-3" src="imagenes/6.jpg">
+                <h1>Nueva zelanda</h1>
+                <p>A lo largo de Nueva Zelanda, podes encontrar de todo, desde zonas naturales vírgenes hasta una rica cultura. Encontrá inspiración en imponentes montañas y fiordos cubiertos de bruma. Serenidad en tranquilas bahías con playas de arena doradas. Nuevos amigos en relajados pueblitos de encanto.</p>
+              </div>
+       </section>
+
+          <section>
+            <div class="container-fluid">
+              <div class="container-center text-center">
+                 <h2>Viajar y reconectarte con uno mismo</h2> 
+                 <p>Algunos viajes son reveladores porque, en el silencio que reina en ellos, nos reencontramos con nosotros mismos, con nuestras inquietudes, con nuestros deseos esenciales y con las verdaderas motivaciones que nos empujan hacia adelante.</p>
+              </div>
+              
+            </div>
 
 
-	<aside class="sidebar">
-		<div>
-			<img src="IMAGENES/1.jfif" alt="">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Earum porro libero ipsum sequi non amet sapiente eligendi facilis, laboriosam unde, consectetur culpa, id repellat aut nostrum, debitis nisi beatae labore.</p>
-		</div>
-		<div>
-			<img src="IMAGENES/2.jpg" alt="">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Earum porro libero ipsum sequi non amet sapiente eligendi facilis, laboriosam unde, consectetur culpa, id repellat aut nostrum, debitis nisi beatae labore.</p>
-		</div>
-		<div>
-			<img src="IMAGENES/3.jfif" alt="">
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Earum porro libero ipsum sequi non amet sapiente eligendi facilis, laboriosam unde, consectetur culpa, id repellat aut nostrum, debitis nisi beatae labore.</p>
-		</div>
-    </aside>
+          </section>
 
-		<div class="related-post">
-			<a href="https://www.booking.com/city/ar/salta.es.html?aid=306396;label=salta-m8MAmdTKZ1H2JnvSq00ljQS392519086508:pl:ta:p1250:p2:ac:ap:neg:fi:tikwd-4927948769:lp9041037:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YdnZzv7u3SiOco5fpqS0M1M;ws=&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WiALuI4tpaXkk7ldfcaSA8dM8BV1sjTtHTnNAtRgKeWvDHkcLdyKfcaAljjEALw_wcB">Hoteles</a>
-		</div>
+        <section class="altura-a-b">
+                  <div class="container">
+                      <div class="row">
 
-		<div class="related-post">
-			<a href="ENLACES/viajes.html">Galeria</a>
-		</div>
+                        <div class="col-12 col-sm-6">
+                          <h1>Islas Canarias</h1>
+                          <p>Gracias a un clima subtropical y a su ubicación pegada a la costa africana, las Islas Canarias ofrecen a los que buscan un poco de sol y playa la escapada invernal perfecta. Con temperaturas suaves durante todo el año y unas condiciones climáticas más que agradables, estas islas volcánicas atraen a visitantes de todo el mundo durante todo el año.</p>
+                          
+                        </div>
 
+                        <div class="col-12 col-sm-6 movimiento">
+                          <img class="img-fluid shadow-lg p-3" src="imagenes/7.jpg">
+                          
+                        </div>
+              
+                      </div>
+            
+                  </div>
 
-    <footer class="footer">
-			<h4>Patrocinadores</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Hic placeat, tempore labore accusamus, amet recusandae adipisci suscipit rem distinctio vel, culpa numquam deleniti at quae eos, ipsa. Repudiandae, nulla, quia!</p>	
-			
-		</footer>
+        </section>
 
-	</div>	
-		
-	
-</body>
+</main>
+
+<!--FOOTER-->
+
+<footer>
+       <img class="logotipo" src="imagenes/0.png">
+
+       <p>Todos los derechos reservados</p>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
 </html>
+
