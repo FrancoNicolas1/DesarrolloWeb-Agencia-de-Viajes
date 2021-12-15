@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss",
+		"../scss/_variables.scss",
+		"../scss/_main.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\" ;\r\n@import \"main\" ;",
+		"$bg-color: #000000 ;\r\n$border-radius: 20px;\r\n$text-cent: center;",
+		"body{\r\n\tfont-family: 'Outfit', sans-serif;\r\n\tfont-size: 20px;\r\n\tbackground: rgb(255,255,255);\r\n    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(34,78,195,1) 100%);\r\n\t\r\n\r\n}\r\n\r\n .logo{\r\n\twidth: 150px ;\r\n}\r\n\r\n.carousel-caption {\r\n    position: absolute;\r\n    right: 15%;\r\n    bottom: 20%;\r\n    left: 15%;\r\n    padding-top: 1.25rem;\r\n    padding-bottom: 1.25rem;\r\n    text-align: left;\r\n    \r\n}\r\n\r\n.altura-a-b{\r\n\tpadding: 5% 0;\r\n}\r\n\r\n.movimiento {\r\n\r\n\timg{\r\n\r\n\ttransition: all 300ms;\r\n       }\r\n\r\n     &:hover img{\r\n\ttransform: scale(1.1);\r\n\tcursor: pointer;\r\n             }  \r\n}\r\n\r\nfooter{\r\n\tpadding: 100px 0;\r\n\ttext-align: $text-cent;\r\n\tbackground-color: $bg-color;\r\n\tcolor: white;\r\n\r\n    .logotipo{\r\n\twidth: 200px;\r\n             }\r\n\r\n}\r\n\r\n.imgg{\r\n\tbackground-image: url(../imagenes/8.jpg);\r\n    height: 50vh;\r\n    background-repeat: no-repeat;\r\n    background-position: center ;\r\n    background-size: cover;\r\n    background-attachment: fixed;\r\n    text-align: $text-cent;\r\n}\r\n\r\n.card{\r\n\ttext-align: $text-cent;\r\n\t border-radius: $border-radius;\r\n\t margin: 5px;\r\n}\r\n\r\n.card-border{\r\n\tborder: solid 10px white;\r\n\tborder-radius: $border-radius;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,IAAI,CAAA;EACH,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,KAAgB;EACzB,UAAU,EAAE,6CAAqE;CAGpF;;;AAEA,AAAA,KAAK,CAAA;EACL,KAAK,EAAE,KAAM;CACb;;;AAED,AAAA,iBAAiB,CAAC;EACd,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,IAAI,EAAE,GAAG;EACT,WAAW,EAAE,OAAO;EACpB,cAAc,EAAE,OAAO;EACvB,UAAU,EAAE,IAAI;CAEnB;;;AAED,AAAA,WAAW,CAAA;EACV,OAAO,EAAE,IAAI;CACb;;;AAED,AAEC,WAFU,CAEV,GAAG,CAAA;EAEH,UAAU,EAAE,SAAS;CACd;;;AALR,AAOK,WAPM,AAOL,MAAM,CAAC,GAAG,CAAA;EACf,SAAS,EAAE,UAAU;EACrB,MAAM,EAAE,OAAO;CACF;;;AAGd,AAAA,MAAM,CAAA;EACL,OAAO,EAAE,OAAO;EAChB,UAAU,EDzCC,MAAM;EC0CjB,gBAAgB,ED5CN,OAAO;EC6CjB,KAAK,EAAE,KAAK;CAMZ;;;AAVD,AAMI,MANE,CAMF,SAAS,CAAA;EACZ,KAAK,EAAE,KAAK;CACC;;;AAId,AAAA,KAAK,CAAA;EACJ,gBAAgB,EAAE,sBAAsB;EACrC,MAAM,EAAE,IAAI;EACZ,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAO;EAC5B,eAAe,EAAE,KAAK;EACtB,qBAAqB,EAAE,KAAK;EAC5B,UAAU,ED1DF,MAAM;CC2DjB;;;AAED,AAAA,KAAK,CAAA;EACJ,UAAU,ED9DC,MAAM;EC+DhB,aAAa,EDhEC,IAAI;ECiElB,MAAM,EAAE,GAAG;CACZ;;;AAED,AAAA,YAAY,CAAA;EACX,MAAM,EAAE,gBAAgB;EACxB,aAAa,EDtEE,IAAI;CCuEnB"
+}

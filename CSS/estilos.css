@@ -1,73 +1,78 @@
-body{
-	font-family: 'Outfit', sans-serif;
-	font-size: 20px;
-	background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(34,78,195,1) 100%);
-
+/* line 1, ../Nueva carpeta/scss/_main.scss */
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  background: white;
+  background: linear-gradient(0deg, white 0%, #224ec3 100%);
 }
 
- .logo{
-	width: 150px ;
+/* line 10, ../Nueva carpeta/scss/_main.scss */
+.logo {
+  width: 150px;
 }
 
-
-
+/* line 14, ../Nueva carpeta/scss/_main.scss */
 .carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 20%;
-    left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    text-align: left;
-    
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: left;
 }
 
-.altura-a-b{
-	padding: 5% 0;
+/* line 25, ../Nueva carpeta/scss/_main.scss */
+.altura-a-b {
+  padding: 5% 0;
 }
 
-.movimiento img{
-
-	transition: all 300ms;
+/* line 31, ../Nueva carpeta/scss/_main.scss */
+.movimiento img {
+  transition: all 300ms;
 }
 
-.movimiento:hover img{
-	transform: scale(1.1);
-	cursor: pointer;
+/* line 36, ../Nueva carpeta/scss/_main.scss */
+.movimiento:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-footer{
-	padding: 100px 0;
-	text-align: center;
-	background-color: #000000;
+/* line 42, ../Nueva carpeta/scss/_main.scss */
+footer {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #000000;
+  color: white;
 }
 
-footer .logotipo{
-	width: 200px;
+/* line 48, ../Nueva carpeta/scss/_main.scss */
+footer .logotipo {
+  width: 200px;
 }
 
-footer p{
-	color: #fff;
+/* line 54, ../Nueva carpeta/scss/_main.scss */
+.imgg {
+  background-image: url(../imagenes/8.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
 }
 
-.imgg{
-	background-image: url(../imagenes/8.jpg);
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+/* line 64, ../Nueva carpeta/scss/_main.scss */
+.card {
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px;
 }
 
-.card{
-	text-align: center;
-	 border-radius: 20px;
-	 margin: 5px;
+/* line 70, ../Nueva carpeta/scss/_main.scss */
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
 }
 
-.card-border{
-	border: solid 10px white;
-	border-radius: 20px;
-}
+/*# sourceMappingURL=estilos.css.map */
