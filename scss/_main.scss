@@ -40,13 +40,16 @@ body{
 }
 
 footer{
+    @include fondoNegro;
 	padding: 100px 0;
 	text-align: $text-cent;
-	background-color: $bg-color;
 	color: white;
 
-    .logotipo{
-	width: 200px;
+     .logotipo{
+
+      @extend .logo;
+
+	
              }
 
 }
@@ -62,12 +65,14 @@ footer{
 }
 
 .card{
-	text-align: $text-cent;
-	 border-radius: $border-radius;
-	 margin: 5px;
+	@include Card;
 }
 
 .card-border{
 	border: solid 10px white;
 	border-radius: $border-radius;
+}
+
+h3{
+	font-weight: map-get($miMap, bold );
 }

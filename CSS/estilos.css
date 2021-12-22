@@ -1,4 +1,3 @@
-/* line 1, ../Nueva carpeta/scss/_main.scss */
 body {
   font-family: 'Outfit', sans-serif;
   font-size: 20px;
@@ -6,12 +5,10 @@ body {
   background: linear-gradient(0deg, white 0%, #224ec3 100%);
 }
 
-/* line 10, ../Nueva carpeta/scss/_main.scss */
-.logo {
+.logo, footer .logotipo {
   width: 150px;
 }
 
-/* line 14, ../Nueva carpeta/scss/_main.scss */
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -22,36 +19,26 @@ body {
   text-align: left;
 }
 
-/* line 25, ../Nueva carpeta/scss/_main.scss */
 .altura-a-b {
   padding: 5% 0;
 }
 
-/* line 31, ../Nueva carpeta/scss/_main.scss */
 .movimiento img {
   transition: all 300ms;
 }
 
-/* line 36, ../Nueva carpeta/scss/_main.scss */
 .movimiento:hover img {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-/* line 42, ../Nueva carpeta/scss/_main.scss */
 footer {
+  background-color: #000000;
   padding: 100px 0;
   text-align: center;
-  background-color: #000000;
   color: white;
 }
 
-/* line 48, ../Nueva carpeta/scss/_main.scss */
-footer .logotipo {
-  width: 200px;
-}
-
-/* line 54, ../Nueva carpeta/scss/_main.scss */
 .imgg {
   background-image: url(../imagenes/8.jpg);
   height: 50vh;
@@ -62,17 +49,17 @@ footer .logotipo {
   text-align: center;
 }
 
-/* line 64, ../Nueva carpeta/scss/_main.scss */
 .card {
   text-align: center;
   border-radius: 20px;
   margin: 5px;
 }
 
-/* line 70, ../Nueva carpeta/scss/_main.scss */
 .card-border {
   border: solid 10px white;
   border-radius: 20px;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+h3 {
+  font-weight: 700;
+}
