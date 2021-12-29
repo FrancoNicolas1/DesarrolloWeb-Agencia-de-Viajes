@@ -1,0 +1,63 @@
+body {
+ font-family: 'Roboto', sans-serif;
+
+}
+
+.logo{
+  width:200px;
+}
+
+.altura-a-b{
+  
+  padding: 5% 0;
+}
+
+.container {
+  img{
+  transition: all 300ms;
+  &:hover{transform: scale(1.1);
+  cursor: pointer;
+
+  }
+
+  }
+  
+}
+
+.coronavirus{
+  width: 100%;
+    height: auto;
+    @include colores;
+    padding: 20px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 100px 0;
+  text-align: $t-center;
+  @include letra;
+}
+
+.fondo {
+  background-image: url(../imagenes/8.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position:$bg-position ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fondo2 {
+  background-image: url(../imagenes/Call-Center.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: $bg-position;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg{
+  background-image: url(../imagenes/mensajeria.png);
+  background-repeat: no-repeat;
+  background-position: $bg-position;
+}

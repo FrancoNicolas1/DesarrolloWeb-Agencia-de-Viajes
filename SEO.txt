@@ -1,6 +1,0 @@
-Los cambios que realize en mis archivos con lo aprendido en la clase de SEO fueron:
-
-*Agregar descripciones de cada pagina 
-*Tiutulos relacionados a lo contenido en cada pagina
-*El uso correcto de las Etiquetas
-*Orden en el HTML sin dejar espacios vacios en el mismo 

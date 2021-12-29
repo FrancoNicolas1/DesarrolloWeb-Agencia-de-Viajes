@@ -1,0 +1,7 @@
+@mixin colores{
+	background-color:$bg-color;
+}
+
+@mixin letra{
+	color:$color
+}
