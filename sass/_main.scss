@@ -1,63 +1,161 @@
-body {
- font-family: 'Roboto', sans-serif;
+body{
+    font-family:'Roboto', sans-serif;
+}
 
+.navbar{
+    @include letra;
+    background-color:#ffffff;
+    min-height: 80px;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, .05)
+
+}
+
+.nav-link{
+
+    color:$color;
+    font-size:22px;
+
+    &:hover{
+
+            color:$color;
+
+            }
 }
 
 .logo{
-  width:200px;
+    width:150px;
+
 }
 
-.altura-a-b{
-  
-  padding: 5% 0;
+#hero {
+
+    background-image: url(../imagenes/2.jpg);
+    @include cover;
+    background-position: $bg-position;
+    padding-top: 90px;
+    min-height:500px;
+
 }
 
-.container {
-  img{
-  transition: all 300ms;
-  &:hover{transform: scale(1.1);
-  cursor: pointer;
+.content-center{
 
-  }
+    text-align:$t-center;
+    margin:40px;
 
-  }
-  
 }
 
-.coronavirus{
-  width: 100%;
-    height: auto;
-    @include colores;
-    padding: 20px;
+h1{
+
+    font-size:4rem;
+    @include letra;
+    color:$color;
+
 }
 
-footer {
-  background-color: #000000;
-  padding: 100px 0;
-  text-align: $t-center;
-  @include letra;
+h3{
+
+    @include letra;
+    
+    font-size: 70px;
+
 }
 
-.fondo {
-  background-image: url(../imagenes/8.jpg);
-  height: 50vh;
+h2{
+
+   @include letra;
+    color: #CF972A;
+    font-size: 90px;
+
+}
+
+footer{
+
+    background-color:$bg-color;
+    padding:10px 0;
+    text-align: $t-center;
+
+    h3 {
+        color:#fff;
+        font-size: 20px;
+
+        }
+     p {
+        font-size: 0.88em;
+        color:white;
+        padding:15px;
+      }
+}
+
+.logo-footer{
+
+    width:150px;
+    margin-bottom:25px;
+
+}
+
+.redes{
+
+  a{
+     color: #fff;
+      margin: 10px;
+      font-size: 25px;
+      }
+}
+
+
+
+
+#hero2 {
+  background-image: url(../imagenes/4.jpeg);
+  @include cover;
+  padding-top: 90px;
+  min-height:400px;
   background-repeat: no-repeat;
-  background-position:$bg-position ;
-  background-size: cover;
+  background-position: $bg-position;
   background-attachment: fixed;
 }
 
-.fondo2 {
-  background-image: url(../imagenes/Call-Center.jpg);
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: $bg-position;
-  background-size: cover;
-  background-attachment: fixed;
+.cuerpo{
+  padding: 15px;
 }
 
-.bg{
-  background-image: url(../imagenes/mensajeria.png);
-  background-repeat: no-repeat;
+#galeria {
+    img{
+        width:100%;
+        height:300px;
+        transition: all 300ms;
+     &:hover{
+
+            transform: scale(1.1);
+
+            } 
+
+    }  
+
+    .col-lg-4{
+        padding:25px;
+    }
+
+    
+}
+
+
+.card {
+
+    img{
+        height:300px;
+        }
+
+}
+
+.section{
+
+  padding:50px;
+
+}
+
+#hero3{
   background-position: $bg-position;
+  padding: map-get($miMap, normal);
+
 }

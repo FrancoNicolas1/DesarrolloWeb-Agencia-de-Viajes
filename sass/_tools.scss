@@ -1,7 +1,7 @@
-@mixin colores{
-	background-color:$bg-color;
+@mixin cover{
+	background-size:cover;
 }
 
 @mixin letra{
-	color:$color
+	font-family: 'Licorice', cursive;
 }
