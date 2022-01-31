@@ -3,7 +3,7 @@ body{
 }
 
 .navbar{
-    @include letra;
+    font-family: 'Licorice', cursive;
     background-color:#ffffff;
     min-height: 80px;
     box-shadow:0 2px 4px 0 rgba(0, 0, 0, .05)
@@ -30,7 +30,7 @@ body{
 #hero {
 
     background-image: url(../imagenes/2.jpg);
-    @include cover;
+    background-size:cover;
     background-position: $bg-position;
     padding-top: 90px;
     min-height:500px;
@@ -45,26 +45,21 @@ body{
 }
 
 h1{
-
-    font-size:4rem;
-    @include letra;
+    @include letra(60px);
     color:$color;
 
 }
 
 h3{
-
-    @include letra;
-    
-    font-size: 70px;
+    @include letra(70px);
 
 }
 
 h2{
-
-   @include letra;
+    
+    @include letra(90px);
     color: #CF972A;
-    font-size: 90px;
+    
 
 }
 
@@ -107,7 +102,7 @@ footer{
 
 #hero2 {
   background-image: url(../imagenes/4.jpeg);
-  @include cover;
+  background-size:cover;
   padding-top: 90px;
   min-height:400px;
   background-repeat: no-repeat;
@@ -124,6 +119,7 @@ footer{
         width:100%;
         height:300px;
         transition: all 300ms;
+        @include border(10px);
      &:hover{
 
             transform: scale(1.1);
@@ -145,6 +141,7 @@ footer{
     img{
         height:300px;
         }
+    @include border(15px);    
 
 }
 
@@ -159,3 +156,11 @@ footer{
   padding: map-get($miMap, normal);
 
 }
+
+.form {
+    background-color: #3b4652;
+    padding: 0 20px;
+    @include border(10px);
+
+}
+

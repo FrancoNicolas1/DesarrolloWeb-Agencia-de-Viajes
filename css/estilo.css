@@ -36,20 +36,20 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 60px;
   font-family: 'Licorice', cursive;
   color: black;
 }
 
 h3 {
-  font-family: 'Licorice', cursive;
   font-size: 70px;
+  font-family: 'Licorice', cursive;
 }
 
 h2 {
+  font-size: 90px;
   font-family: 'Licorice', cursive;
   color: #CF972A;
-  font-size: 90px;
 }
 
 footer {
@@ -98,6 +98,8 @@ footer p {
   width: 100%;
   height: 300px;
   transition: all 300ms;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 #galeria img:hover {
@@ -106,6 +108,11 @@ footer p {
 
 #galeria .col-lg-4 {
   padding: 25px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px;
 }
 
 .card img {
@@ -119,4 +126,11 @@ footer p {
 #hero3 {
   background-position: center;
   padding: 50px;
+}
+
+.form {
+  background-color: #3b4652;
+  padding: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
 }

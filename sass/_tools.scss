@@ -1,7 +1,10 @@
-@mixin cover{
-	background-size:cover;
+@mixin border($bordes){
+	border-radius:$bordes; 
+	box-shadow: 0px 0px 10px ;
+
 }
 
-@mixin letra{
+@mixin letra($pixel){
+    font-size: $pixel;
 	font-family: 'Licorice', cursive;
 }
